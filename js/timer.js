@@ -10,7 +10,7 @@ const summitDay = new Date(`june 22 $ {currentYear + 1 } 00:00:00:00`);
 
 
 function updateTimer() {
-const  future = new Date(2022,05,22,00,00,00) , now = new Date(), diff = future - now;
+const  future = new Date(2022,05,23,00,00,00) , now = new Date(), diff = future - now;
 
  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
  const hours = Math.floor(diff / (1000 * 60 * 60));
