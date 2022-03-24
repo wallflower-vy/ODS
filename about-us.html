@@ -45,7 +45,14 @@
 </head>
 
 <body>
-	<div class="body-inner">
+	<div class="modal-popup" id="modal-popup">
+      
+		<h4><b>Registration commences April 30th</b>  </h4>
+		<p>Kindly check back!</p>
+		   <a href="#" class="modal-popup-btn" onclick="toggle()">Close</a>
+  
+	 </div>
+	<div class="body-inner" id="innercontent-body">
 		<!-- Header start -->
 		<header id="header" class="header header-transparent">
 			<div class="container">
@@ -62,50 +69,28 @@
 						<ul class="navbar-nav ml-auto">
 							<li class=" nav-item active">
 								<a href="index.html" class="">Home </a>
-                        <!-- <ul class="dropdown-menu" role="menu">
-                              <li><a href="index.html">Home One</a></li>
-                              <li><a href="index-2.html">Home Two</a></li>
-                              <li><a href="index-3.html">Home Three</a></li>
-                              <li><a href="index-4.html">Home Four</a></li>
-                              <li><a href="index-5.html">Home Five</a></li>
-                              <li><a href="index-6.html">Home Six</a></li>
-                              <li><a href="index-7.html">Home Seven</a></li>
-                        </ul> -->
+                       
 							</li>
 							<li class="dropdown nav-item">
 								<a href="#" class="" data-toggle="dropdown">About <i class="fa fa-angle-down"></i></a>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="about-us.html">About Us</a></li>
 									<li><a href="gallery.html">Gallery</a></li>
-									<!-- <li><a href="faq.html">FAQ</a></li> -->
-									<!-- <li><a href="masterclass.html">Master Class</a></li> -->
-									<!-- <li><a href="sponsors-1.html">Sponsors</a></li> -->
+									
 									<li><a href="venue.html">Venue</a></li>
-									<!-- <li><a href="404.html">Erro Page</a></li> -->
+									
 								</ul>
 							</li>
 							<li class="nav-item ">
-								<!-- <a href="speakers-2.html" class="">Speakers </a> -->
-								<!-- <ul class="dropdown-menu" role="menu">
-									<li><a href="speakers-1.htmzl">Speakers-1</a></li>
-									<li><a href="speakers-2.html">Speakers-2</a></li>
-								</ul> -->
+							
 
 							</li>
 							<li class="nav-item">
-								<!-- <a href="schedule-list.html" class="" >Schedule </a> -->
-								<!-- <ul class="dropdown-menu" role="menu">
-									<li><a href="schedule-list.html">Schedule List</a></li>
-                           <li><a href="schedule-tab-1.html">Schedule Tab 1</a></li>
-                           <li><a href="schedule-tab-2.html">Schedule Tab 2</a></li>
-								</ul> -->
+							
 							</li>
 							<li class="nav-item ">
 								<a href="blog.html"> Blog </a>
-								<!-- <ul class="dropdown-menu" role="menu">
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="news-single.html">Blog Details</a></li>
-								</ul> -->
+							
 							</li>
 							<li class="nav-item">
 								<a href="contact.html">Contact</a>
@@ -145,7 +130,7 @@
 							<!-- <span class="why-join">
 								About The Summit
 							</span> -->
-							
+							 
 						</h2>
 					</div>
 					<div class="row mb-5 about-row1">
@@ -408,7 +393,7 @@
 									Secure your seat
 
 								</h2>
-								<a href="#" class="btn register-btn ">REGISTER NOW</a>
+								<a href="#" class="btn register-btn " onclick="toggle()">REGISTER NOW</a>
 							</div><!-- book seat end-->
 						</div><!-- col end-->
 
@@ -419,20 +404,20 @@
 								<div class="col-lg-6 mx-auto">
 									<div class="ts-newsletter-content">
 										<h2 class="section-title">
-											<span>WANT TO STAY INFORMED?</span>
-											Subscribe to our newsletter
+											<span>Would you like to showcase your product/startup?</span>
+											Exhibit Your Startup
 
 										</h2>
 									</div>
 									<div class="newsletter-form">
 										<form action="#" method="post" class="media align-items-end">
 											<div class="email-form-group media-body">
-												<input type="email" name="email" id="newsletter-form-email" class="form-control" placeholder="Your Email"
+												<!-- <input type="email" name="email" id="newsletter-form-email" class="form-control" placeholder="Your Email"
 												 autocomplete="off" required="">
-											</div>
-											<div class="d-flex ts-submit-btn">
-												<button class="btn">Subscribe</button>
-											</div>
+											</div> -->
+											<div class="text-center">
+												<a href="exhibit.html" class="btn" >EXHIBIT YOUR STARTUP</a>
+											 </div>
 										</form>
 									</div>
 								</div>
@@ -497,6 +482,7 @@
             ================================================== -->
       <!-- initialize jQuery Library -->
       <script src="js/jquery.js"></script>
+	  <script src="js/timer.js"></script>
 
       <script src="js/popper.min.js"></script>
       <!-- Bootstrap jQuery -->

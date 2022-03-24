@@ -40,20 +40,20 @@
    <!-- Responsive styles-->
    <link rel="stylesheet" href="css/responsive.css">
 
-   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-
 </head>
 
 <body>
    <!-- <div  id="preloader" >
 
    </div> -->
-   <div class="body-inner">
+   <div class="modal-popup" id="modal-popup">
+      
+      <h4><b>Registration commences April 30th</b>  </h4>
+      <p>Kindly check back!</p>
+         <a href="#" class="modal-popup-btn" onclick="toggle()">Close</a>
+
+   </div>
+   <div class="body-inner" id="innercontent-body">
       <!-- Header start -->
       <header id="header" class="header header-transparent">
          <div class="container">
@@ -154,7 +154,7 @@
                         </div>
                         <!-- Countdown end -->
                         <div class="banner-btn wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="800ms">
-                           <a href="#" class="btn">REGISTER</a>
+                           <a href="#" class="btn active" id="register" onclick="toggle()">REGISTER</a>
                         </div>
 
                      </div>
@@ -194,7 +194,7 @@
 
                      </p>
                      
-                     <a href="#" class="btn">REGISTER</a>
+                     <a href="#" class="btn" onclick="toggle()">REGISTER</a>
                   </div>
                </div><!-- col end-->
                <div class="col-lg-8">
@@ -319,7 +319,7 @@
          <div class="container-fluid">
             <div class="row">
                <div class="col-lg-6 no-padding">
-                  <div class="exp-img wow fadeInUp" style="background-image:url(./images/shap/gett-exp-img.jpg)"
+                  <div class="exp-img wow fadeInUp" style="background-image:url(./images/shap/gett-exp-img.JPG)"
                      data-wow-duration="1.5s" data-wow-delay="500ms">
                      <!-- <img class="img-fluid" src="images/cta_img.jpg" alt=""> -->
                   </div>
@@ -621,8 +621,10 @@
          </div>
       </section>
       <!-- ts map direction end-->
-      
+     
+         
 
+      
 
       <!-- ts footer area start-->
       <div class="footer-area">
@@ -639,7 +641,7 @@
                            Secure your seat
 
                         </h2>
-                        <a href="#" class="btn">REGISTER NOW</a>
+                        <a href="#" class="btn" onclick="toggle()">REGISTER NOW</a>
                      </div><!-- book seat end-->
                   </div><!-- col end-->
 
@@ -650,19 +652,19 @@
                         <div class="col-lg-6 mx-auto">
                            <div class="ts-newsletter-content">
                               <h2 class="section-title">
-                                 <span>WANT TO STAY INFORMED?</span>
-                                 Subscribe to our newsletter
+                                 <span>Would you like to showcase your product/startup?</span>
+                               Exhibit Your Startup
 
                               </h2>
                            </div>
                            <div class="newsletter-form">
                               <form action="#" method="post" class="media align-items-end">
                                  <div class="email-form-group media-body">
-                                    <input type="email" name="email" id="newsletter-form-email" class="form-control"
+                                    <!-- <input type="email" name="email" id="newsletter-form-email" class="form-control"
                                        placeholder="Your Email" autocomplete="off" required="">
-                                 </div>
-                                 <div class="d-flex ts-submit-btn">
-                                    <button class="btn">Subscribe</button>
+                                 </div> -->
+                                 <div class="text-center">
+                                    <a href="exhibit.html" class="btn" >EXHIBIT YOUR STARTUP</a>
                                  </div>
                               </form>
                            </div>
@@ -726,6 +728,8 @@
       <!-- ts footer area end-->
 
 
+      
+      
 
 
       <!-- Javascript Files

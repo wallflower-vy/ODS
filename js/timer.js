@@ -32,3 +32,14 @@ setInterval('updateTimer()', 1000);
 
 
 // updateTimer();
+
+const toggle =()=>{
+    var blur =document.getElementById('innercontent-body');
+    var modalpop =document.getElementById('modal-popup');
+    blur.classList.toggle('active');
+    modalpop.classList.toggle('active');
+    
+}
+
+
+
