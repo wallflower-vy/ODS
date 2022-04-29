@@ -74,6 +74,9 @@
     text-align: justify;
 }
 @media screen and (max-width:992px) {
+    .venue-img-top{
+        width:100%;
+    }
     .about-row1{
         margin:0 0.3rem 0 0.3rem;
     }
@@ -181,11 +184,11 @@
     background-image: url('./images/venue/patten3');
 }
 .exp-img{
-    background:rgba(0,0,0,0.7)url(./images/gtX-img.jpg);
+    background:rgba(0,0,0,0.7) url(./images/gtX-img.jpg);
     background-repeat: no-repeat;
     background-blend-mode: darken;
     
-}
+} 
 .sponsor-text-box{
     height:5rem !important;
 }
